@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+</head>
+<body>
+    <header class="header">
+        <div class="header-row container" role="navigation" aria-label="Main">
+            <div class="header-left">
+                <div class="logo">
+                    <!-- <h1>logo</h1> -->
+                    <div>
+                        <a onclick="window.location.href='home.html'" href="#"><img src="/img/SEElogo 2.jpg" alt=""></a>
+        
+                    </div>
+                    <h3 id="nav-1">Shubham Electricals & Engineering Co.</h3>
+                    <h4 class="nav-h4">Government Authorised Electrical Contractor.</h4>
+                    <h5 class="nav-h5"><i class="fa fa-check-circle" style="font-size:20px;color:rgb(5, 78, 17)"></i> GST
+                        27AHAPT3742M1ZY | <a href="https://goo.gl/maps/XMPg4Kvu8oU7po4HA" target="_blank">
+                            <i class="fa fa-map-marker" style="font-size:20px;color:rgb(5, 78, 17)"></i> Pune, Maharashtra.</a></h5>
+                </div>
+            </div>
+            <div class="header-right">
+                <ul class="main-menu">
+                    <li class="menu-item"><a onclick="window.location.href='home.html'" href="home.html" href="#" class="active">Home</a></li>
+
+                    <li class="menu-item mega-menu">
+                        <a href="#">Product & Services+</a>
+                        <div class="mega-menu-wrapper slideInUp">
+                            <div class="mega-menu-col">
+                                <h5>Manufacturing</h5>
+                                <ul class="mega-sub-menu">
+                                    <li><a onclick="window.location.href='RCC-Half-Round.html'" href="#RCC-Half-Round.html" href="#">RCC Half-Round </a></li>
+                                    <!-- <li><a href="#">Menu block item 2</a></li>
+                                    <li><a href="#">Menu block item 3</a></li>
+                                    <li><a href="#">Menu block item 4</a></li>
+                                    <li><a href="#">Menu block item 5</a></li> -->
+                                </ul>
+                            </div>
+                            <div class="mega-menu-col">
+                                <h5>Solar Work</h5>
+                                <ul class="mega-sub-menu">
+                                    <li><a onclick="window.location.href='EPC-services.html'" href="#EPC-services.html" href="#">Solar EPC Services </a></li>
+                                    <li><a onclick="window.location.href='O&M-Solutions.html'" href="#O&M-Solutions.html" href="#">Solar Plants Comprehensive O & M Solutions</a></li>
+                                    <li><a  onclick="window.location.href='Solar-PV-Monitoring.html'" href="#Solar-PV-Monitoring.html" href="#">Solar PV Monitoring</a></li>
+                                    <!-- <li><a href="#">Preventive </a></li>
+                                    <li><a href="#">Menu block item 5</a></li> -->
+                                </ul>
+                            </div>
+                            <div class="mega-menu-col">
+                                <h5>Wiring </h5>
+                                <ul class="mega-sub-menu">
+                                    <li><a onclick="window.location.href='Industrial-Wiring.html'" href="#Industrial-Wiring.html" href="#">Industrial Wiring</a></li>
+                                    <li><a onclick="window.location.href='Commertial-Wiring.html'" href="#Commertial-Wiring.html" href="#">Commertial Wiring </a></li>
+                                    <li><a  onclick="window.location.href='External-Wiring.html'" href="#External-Wiring.html" href="#">External Wiring</a></li>
+                                    <li><a  onclick="window.location.href='Wiring-Maintenance.html'" href="#Wiring-Maintenance.html" href="#">Wiring Maintenance</a></li>
+                                    <li><a  onclick="window.location.href='Other-Wiring.html'" href="#Other-Wiring.html" href="#">Other wiring </a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-menu-col">
+                                <h5>Liosening Work (MSEB related Work)</h5>
+                                <ul class="mega-sub-menu">
+                                    <li><a  onclick="window.location.href='Meter-Liosening.html'" href="#Meter-Liosening.html" href="#">Meter Liosening</a></li>
+                                    <li><a  onclick="window.location.href='Solar-Liosening.html'" href="#Solar-Liosening.html" href="#">Solar Liosening</a></li>
+                                    <li><a  onclick="window.location.href='HT/LT-Substation-Liosening.html'" href="#HT/LT-Substation-Liosening.html" href="#">HT/LT Substation Liosening</a></li>
+                                    <!-- <li><a href="#">Wiring Maintenance</a></li>
+                                    <li><a href="#">Other wiring </a></li> -->
+                                </ul>
+                            </div>
+                            <div class="mega-menu-col">
+                                <h5>Transportation </h5>
+                                <ul class="mega-sub-menu">
+                                    <li><a  onclick="window.location.href='MSEB-T.html'" href="#MSEB-T.html" href="#">Maintenance Vehicle for MSEB </a></li>
+                                    <li><a  onclick="window.location.href='local-T.html'" href="#local-T.html" href="#">Transportation vehicle for local</a></li>
+                                    <!-- <li><a href="#">Menu block item 3</a></li>
+                                    <li><a href="#">Menu block item 4</a></li>
+                                    <li><a href="#">Menu block item 5</a></li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="menu-item dropdown">
+                        <a href="#">office solutions +</a>
+                        <div class="sub-menu-wrapper slideInUp">
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a  onclick="window.location.href='D-P.html'" href="#Document-Printing.html" href="#">Document Printing</a></li>
+                                <li class="menu-item"><a  onclick="window.location.href='S-S.html'" href="#Scanning-Solutions.html" href="#">Scanning Solutions </a></li>
+                                <li class="menu-item"><a onclick="window.location.href='X-E.html'" href="#Xerox-Equipment's.html" href="#">Xerox Equipment's</a></li>
+                                <li class="menu-item"><a onclick="window.location.href='B-C.html'" href="#Bill-Collection.html" href="#">Bill Collection(Light Bill Payments, Utility Bill Services.) </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item"><a onclick="window.location.href='about.html'" href="#about-us.html" href="#">About Us </a></li>
+                    <li class="menu-item"><a onclick="window.location.href='contact.html'" href="#contact.html" href="#">Contact</a></li>
+                </ul>
+                <a href="#" id="hamburger-icon" class="mobile-toggler" aria-label="Mobile Menu"><i class="fas fa-bars"></i></a>
+            </div>
+
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="mobile-menu hidden slideInDown">
+                <ul>
+                    <li class="menu-item"><a onclick="window.location.href='home.html'" href="home.html" href="#" class="active">Home</a></li>
+
+                    <li class="menu-item mega-menu">
+                        <a href="#">Product & Services+</a>
+                        <div class="mega-menu-wrapper">
+                            <div class="mega-menu-col">
+                                <h5>Manufacturing</h5>
+                                <ul class="mega-sub-menu">
+                                    <li><a onclick="window.location.href='RCC-Half-Round.html'" href="#RCC-Half-Round.html" href="#">RCC Half-Round </a></li>
+                                    <!-- <li><a href="#">Menu block item 2</a></li>
+                                    <li><a href="#">Menu block item 3</a></li>
+                                    <li><a href="#">Menu block item 4</a></li>
+                                    <li><a href="#">Menu block item 5</a></li> -->
+                                </ul>
+                            </div>
+                            <div class="mega-menu-col">
+                                <h5>Solar Work</h5>
+                                <ul class="mega-sub-menu">
+                                    <li><a onclick="window.location.href='EPC-services.html'" href="#EPC-services.html" href="#">Solar EPC Services </a></li>
+                                    <li><a onclick="window.location.href='O&M-Solutions.html'" href="#O&M-Solutions.html" href="#">Solar Plants Comprehensive O & M Solutions</a></li>
+                                    <li><a  onclick="window.location.href='Solar-PV-Monitoring.html'" href="#Solar-PV-Monitoring.html" href="#">Solar PV Monitoring</a></li>
+                                    <!-- <li><a href="#">Preventive </a></li>
+                                    <li><a href="#">Menu block item 5</a></li> -->
+                                </ul>
+                            </div>
+                            <div class="mega-menu-col">
+                                <h5>Wiring </h5>
+                                <ul class="mega-sub-menu">
+                                    <li><a onclick="window.location.href='Industrial-Wiring.html'" href="#Industrial-Wiring.html" href="#">Industrial Wiring</a></li>
+                                    <li><a onclick="window.location.href='Commertial-Wiring.html'" href="#Commertial-Wiring.html" href="#">Commertial Wiring </a></li>
+                                    <li><a  onclick="window.location.href='External-Wiring.html'" href="#External-Wiring.html" href="#">External Wiring</a></li>
+                                    <li><a  onclick="window.location.href='Wiring-Maintenance.html'" href="#Wiring-Maintenance.html" href="#">Wiring Maintenance</a></li>
+                                    <!-- <li><a  onclick="window.location.href='Other-Wiring.html'" href="#Other-Wiring.html" href="#">Other wiring </a></li> -->
+                                </ul>
+                            </div>
+                            <div class="mega-menu-col">
+                                <h5>Liosening Work (MSEB related Work)</h5>
+                                <ul class="mega-sub-menu">
+                                    <li><a  onclick="window.location.href='Meter-Liosening.html'" href="#Meter-Liosening.html" href="#">Meter Liosening</a></li>
+                                    <li><a  onclick="window.location.href='Solar-Liosening.html'" href="#Solar-Liosening.html" href="#">Solar Liosening</a></li>
+                                    <li><a  onclick="window.location.href='HT-LT-Substation-Liosening.html'" href="#HT-LT-Substation-Liosening.html" href="#">HT/LT Substation Liosening</a></li>
+                                    <!-- <li><a href="#">Wiring Maintenance</a></li>
+                                    <li><a href="#">Other wiring </a></li> -->
+                                </ul>
+                            </div>
+                            <div class="mega-menu-col">
+                                <h5>Transportation </h5>
+                                <ul class="mega-sub-menu">
+                                    <li><a  onclick="window.location.href='MSEB-T.html'" href="#MSEB-T.html" href="#">Maintenance Vehicle for MSEB </a></li>
+                                    <li><a  onclick="window.location.href='local-T.html'" href="#local-T.html" href="#">Transportation vehicle for local</a></li>
+                                    <!-- <li><a href="#">Menu block item 3</a></li>
+                                    <li><a href="#">Menu block item 4</a></li>
+                                    <li><a href="#">Menu block item 5</a></li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="menu-item dropdown">
+                        <a href="#">office solutions +</a>
+                        <div class="sub-menu-wrapper">
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a  onclick="window.location.href='D-P.html'" href="#Document-Printing.html" href="#">Document Printing</a></li>
+                                <li class="menu-item"><a  onclick="window.location.href='S-S.html'" href="#Scanning-Solutions.html" href="#">Scanning Solutions </a></li>
+                                <li class="menu-item"><a onclick="window.location.href='X-E.html'" href="#Xerox-Equipment's.html" href="#">Xerox Equipment's</a></li>
+                                <li class="menu-item"><a onclick="window.location.href='B-C.html'" href="#Bill-Collection.html" href="#">Bill Collection(Light Bill Payments, Utility Bill Services.) </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item"><a onclick="window.location.href='about.html'" href="#about-us.html" href="#">About Us </a></li>
+                    <li class="menu-item"><a onclick="window.location.href='contact.html'" href="#contact.html" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- <section class="hero">
+        <div class="container">
+            <h1>Awesome Mega Menu</h1>
+        </div>
+    </section> -->
+    <div id="wp">
+        <a href="https://wa.me/9762679127" target="_blank"><img src="/img/icons8-whatsapp.gif"
+                alt="connect us on whatsapp"></a></a>
+    </div>
+
+
+    <div id="home">
+
+        <p id="p1">SEE (Shubham Electricals and Engineering Co.) is a government-authorized company that specializes in
+            providing top-notch electrical services and solar panel solutions. With prestigious vendorship from
+            Government organizations like MSEB (MSEDCL), the Indian Navy base, and GeM, SEE has a proven track record of
+            successfully executing tendering projects. With a focus on quality, reliability, and sustainability, SEE has
+            expanded its business into the private sector as well by offering comprehensive electrical services and
+            innovative solar panel implementation and maintenance. With a team of skilled professionals and a commitment
+            to excellence, SEE is a trusted partner for clients seeking efficient and eco-friendly electrical solutions.
+        </p>
+
+    </div>
+    <hr>
+    <br><br>
+    <div id="fw">
+        <h2 id="fw-1">Featured Work >></h2>
+
+    </div>
+    <br><br>
+    <div class="fw-container">
+        <div class="slider-container">
+            <div class="slider">
+                <div class="content">
+                    <h6>01. RCC Half-Round Pipe >> </h6>
+                    <p>SEE is a trusted manufacturer of affordable RCC half-round pipes, specifically designed for the
+                        protection of underground cables. We ensure the highest quality by conducting thorough tests
+                        such as pressure, break, and vibration testing. With our reliable and reasonably priced pipes,
+                        clients can have peace of mind knowing their underground cables are well-protected.</p>
+                </div>
+                <div class="image">
+                    <img src="/img/rcchr.jpg" alt="">
+                </div>
+            </div>
+            <div class="slider">
+                <div class="content">
+                    <h6>02. Solar Work >> </h6>
+                    <p>SEE is a top-tier O&M solution provider with expertise in solar project design and development.
+                        We offer comprehensive services under one roof, allowing IPPs and EPCs to focus on their core
+                        areas. Our specialized approach caters to rooftop solar projects, providing cost-effective,
+                        customized maintenance solutions. With preventive maintenance as a priority, we ensure optimal
+                        plant performance and minimize downtime for PV systems. Trust SEE for reliable and efficient O&M
+                        services.</p>
+                </div>
+                <div class="image">
+                    <img src="/img/solar.jpg" alt="">
+                </div>
+            </div>
+            <div class="slider">
+                <div class="content">
+                    <h6>03. Transformer Substation LV & HV >> </h6>
+                    <p> SEE excels in supplying, erecting, testing, and commissioning HT and LT substations. Our skilled
+                        workers
+                        handle all types of transformer work, including pole-mounted or plinth-mounted installations,
+                        along with
+                        the necessary protective equipment. With extensive experience managing switchyards from 230V and
+                        beyond,
+                        we prioritize safety and minimize downtime by adhering to best practices, equipment manuals,
+                        grid codes,
+                        and our own Standard Operating Procedures. As a licensed electrical contractor in multiple
+                        states, SEE
+                        ensures compliance with statutory requirements. Count on us for superior services and
+                        industry-leading
+                        standards.</p>
+                </div>
+                <div class="image">
+                    <img src="/img/transformer.png" alt="">
+                </div>
+            </div>
+            <div class="slider">
+                <div class="content">
+                    <h6>04. Net Metering & Liasoning Work, MSEB Related Work >> </h6>
+                    <p> SEE boasts exceptional skills in handling various tasks related to Maharashtra State Electricity
+                        Distribution Company Limited (MSEDCL). We excel in tasks such as obtaining sanctions, liaising
+                        with
+                        authorities, executing new and existing meter work, and carrying out load extension projects. As
+                        an
+                        authorized vendor of MSEDCL, we have the privilege of participating in tenders and providing our
+                        expertise in these areas. Count on SEE for seamless execution and outstanding service as we
+                        navigate the
+                        intricacies of MSEDCL projects.</p>
+                </div>
+                <div class="image">
+                    <img src="/img/LW.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="prev">
+            < </div>
+                <div id="next"> > </div>
+        </div>
+
+        <br>
+        <hr>
+        <section id="wcu">
+            <div id="wcu-h">
+                Why Choose Us >>
+            </div>
+            <br><br>
+            <div class="wcu-p">
+                1. Expertise: Benefit from our extensive knowledge and experience in the industry. Our team of skilled
+                professionals has a proven track record of delivering successful projects and providing exceptional
+                services.
+                <br><br>
+                2. Comprehensive Solutions: We offer a complete range of services, from supply and installation to
+                testing
+                and
+                commissioning of HT and LT substations. We handle transformer work and protective equipment
+                installations,
+                providing a one-stop solution for all your electrical needs.
+                <br><br>
+                3. Safety and Compliance: Our commitment to safety is unwavering. We strictly adhere to the highest
+                safety
+                standards, industry best practices, and regulatory requirements. With SEE, you can trust that your
+                project
+                will be executed with maximum safety and compliance in mind.
+                <br><br>
+                4. Licensed Electrical Contractor: As a licensed electrical contractor in multiple states, we ensure
+                strict
+                adherence to statutory regulations. This guarantees that your project will be carried out in accordance
+                with
+                all legal requirements.
+                <br><br>
+                5. Customized Approach: We understand that each project has unique requirements. Our team works closely
+                with
+                you to understand your specific needs and tailor our solutions accordingly. We provide customized and
+                cost-effective offerings to meet your project's exact specifications.
+                <br><br>
+                6. Exceptional Customer Service: Our commitment to excellent customer service sets us apart. We
+                prioritize
+                responsiveness, reliability, and clear communication throughout your project. Our goal is to exceed your
+                expectations and build lasting relationships with our clients.
+            </div>
+            <br><br>
+        </section>
+
+        <footer id="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="info">Information </div>
+                    <ul id="i-ul">
+                        <li onclick="window.location.href='home.html'" href="home.html">Home</li>
+                        <li onclick="window.location.href='product&services.html'" href="#product&services.html">Product
+                            &
+                            Services</li>
+                        <li onclick="window.location.href='about.html'" href="#about.html">About Us</li>
+                        <li onclick="window.location.href='contact.html'" href="#contact.html">Contact Us</li>
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <div class="cu">Contact Us </div>
+                    <p id="mail">Email: example@example.com</p>
+                    <p id="phone">Phone: 9762679127 / 8888669127</p>
+                </div>
+                <div class="footer-content">
+                    <div class="fu">Follow Us</div>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-content">
+                    <div id="map-container">
+                        <a href="https://goo.gl/maps/DPeFeyWiu1hqPwqY8" target="_blank" rel="noopener noreferrer">
+                            <img src="/img/map.png" alt="Map Image">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="copyright">
+                <p class="cr"> copyright &copy; Shubham Electricals & Engineering Co.- all rights reserved</p>
+            </div>
+        </footer>
+</body>
+<script>
+    const mobileBtn = document.getElementById('hamburger-icon')
+const mobileMenu = document.getElementById('mobile-menu')
+const mobileMenuicon = document.querySelector('#hamburger-icon i')
+
+mobileBtn.addEventListener('click', () => {
+    // Open/hide mobile menu
+    mobileMenu.classList.toggle('hidden')
+
+    // Change mobile toggler icon on open/close
+    if(!mobileMenu.classList.contains('hidden')) {
+        mobileMenuicon.classList.remove('fa-bars')
+        mobileMenuicon.classList.add('fa-xmark')
+    } else {
+        mobileMenuicon.classList.remove('fa-xmark')
+        mobileMenuicon.classList.add('fa-bars')
+    }
+
+})
+  // Function to handle slider navigation
+  function navigateSlider(direction) {
+    const sliderContainer = document.querySelector('.slider-container');
+    const slideWidth = document.querySelector('.slider').offsetWidth;
+    const currentPosition = parseInt(
+        sliderContainer.style.transform.slice(11)
+    ) || 0;
+    const numSlides = document.querySelectorAll('.slider').length;
+    const maxWidth = slideWidth * (numSlides - 1);
+
+    let newPosition;
+
+    if (direction === 'prev') {
+        newPosition = Math.min(currentPosition + slideWidth, 0);
+    } else if (direction === 'next') {
+        newPosition = Math.max(currentPosition - slideWidth, -maxWidth);
+    }
+
+    sliderContainer.style.transform = `translateX(${newPosition}px)`;
+
+    // Reset the slider to the beginning when it reaches the last slide
+    if (Math.abs(newPosition) === maxWidth) {
+        setTimeout(() => {
+            sliderContainer.style.transition = 'none';
+            sliderContainer.style.transform = 'translateX(0)';
+            setTimeout(() => {
+                sliderContainer.style.transition = '';
+            }, 10);
+        }, 10000);
+    }
+}
+
+// Automatic sliding
+function startSlider() {
+    const slideInterval = setInterval(() => {
+        navigateSlider('next');
+    }, 10000); // Adjust the duration (in milliseconds) between each slide transition
+
+    // Pause the slider when the mouse enters the slider container
+    const sliderContainer = document.querySelector('.slider-container');
+    sliderContainer.addEventListener('mouseenter', () => {
+        clearInterval(slideInterval);
+    });
+
+    // Restart the slider when the mouse leaves the slider container
+    sliderContainer.addEventListener('mouseleave', () => {
+        clearInterval(slideInterval);
+        startSlider();
+    });
+}
+
+// Event listeners for slider navigation
+document.getElementById('prev').addEventListener('click', () => navigateSlider('prev'));
+document.getElementById('next').addEventListener('click', () => navigateSlider('next'));
+
+// Start the slider
+startSlider();
+
+</script>
+</html>

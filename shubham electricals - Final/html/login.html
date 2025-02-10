@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="its a description part">
+    <meta name="shubham electricals" content=" Shubham Electricals & Engineering Co.">
+    <meta name="robot" content="INDEX , FOLLOW">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <div id="logo">
+            <div>
+                <a onclick="window.location.href='home.html'" href="#"><img src="/img/SEElogo 2.jpg" alt=""></a>
+
+            </div>
+            <h3 id="nav-1">Shubham Electricals & Engineering Co.</h3>
+            <h4 class="nav-h4">Government Authorised Electrical Contractor.</h4>
+            <h5 class="nav-h5"><i class="fa fa-check-circle" style="font-size:20px;color:rgb(5, 78, 17)"></i> GST
+                27AHAPT3742M1ZY | <a href="https://goo.gl/maps/XMPg4Kvu8oU7po4HA" target="_blank"><span
+                        class="glyphicon glyphicon-map-marker"></span> Pune, Maharashtra.</a></h5>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a onclick="window.location.href='home.html'" href="home.html">
+                        <div class="dropdown">
+                            Home
+                        </div>
+                    </a></li>
+                <li>
+                    <div class="dropdown">
+                        Product & Services
+                        <div class="dropdown-content">
+                            <a onclick="window.location.href='man.html'" href="#manufacturing.html"
+                                href="#">Manufacturing</a>
+                            <a onclick="window.location.href='seller.html'" href="#seller.html" href="#">Seller</a>
+                            <a onclick="window.location.href='services.html'" href="#services.html"
+                                href="#">Services</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a onclick="window.location.href='about.html'" href="#about.html">
+                        <div class="dropdown">
+                            About Us
+                        </div>
+                    </a></li>
+                <li><a onclick="window.location.href='contact.html'" href="#contact.html">
+                        <div class="dropdown">
+                            Contact Us
+                        </div>
+                    </a></li>
+                <div class="profile-dropdown">
+                   <i class="fa fa-user" aria-hidden="true"></i>
+                    <div class="p-dropdown-content">
+                        <button id="openModalBtn">Login</button>
+                        <!-- <a onclick="window.location.href='login.html'" href="#login.html"
+                            href="#">Login</a> -->
+                        <a onclick="window.location.href='signup.html'" href="#signup.html" href="#">Sign Up</a>
+                    </div>
+                </div>
+                <!-- <li><a onclick="window.location.href='contact.html'" href="#contact.html">Login / Sign Up</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- <div class="nav">
+
+        <a onclick="window.location.href='home.html'" href="home.html">HOME</a>
+        <a onclick="window.location.href='product&services.html'" href="#product&services.html">PRODUCT & SERVICES </a>
+        <a onclick="window.location.href='about.html'" href="#about.html">ABOUT US </a>
+        <a onclick="window.location.href='contact.html'" href="#contact.html">CONTACT US</a> -->
+
+    <!-- <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div> -->
+    <!-- </div> -->
+
+    <div id="wp">
+        <a href="https://wa.me/9762679127" target="_blank"><img src="/img/icons8-whatsapp.gif"
+                alt="connect us on whatsapp"></a></a>
+    </div>
+<br><br><br><br><br><br><br>
+
+
+
+
+<div id="loginModal" class="modal">
+  <div class="modal-content">
+    <span class="close" id="closeModalBtn">&times;</span>
+    <h2>Login</h2>
+    <form id="loginForm">
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
+
+      <button type="submit">Login</button>
+    </form>
+    <p>Don't have an account? <a href="#" id="signupLink">Sign Up</a></p>
+  </div>
+</div>
+
+
+        <footer id="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="info">Information </div>
+                    <ul id="i-ul">
+                        <li onclick="window.location.href='home.html'" href="home.html">Home</li>
+                        <li onclick="window.location.href='product&services.html'" href="#product&services.html">Product
+                            &
+                            Services</li>
+                        <li onclick="window.location.href='about.html'" href="#about.html">About Us</li>
+                        <li onclick="window.location.href='contact.html'" href="#contact.html">Contact Us</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-content">
+                    <div class="cu">Contact Us </div>
+                    <p id="mail">Email: example@example.com</p>
+                    <p id="phone">Phone: 9762679127 / 8888669127</p>
+                </div>
+                <div class="footer-content">
+                    <div class="fu">Follow Us</div>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-content">
+                    <div id="map-container">
+                        <a href="https://goo.gl/maps/DPeFeyWiu1hqPwqY8" target="_blank" rel="noopener noreferrer">
+                            <img src="/img/map.png" alt="Map Image">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="copyright">
+                <p class="cr"> copyright &copy; Shubham Electricals & Engineering Co.- all rights reserved</p>
+            </div>
+        </footer>
+
+        <script>
+            // Get the modal element
+const modal = document.getElementById("loginModal");
+
+// Get the button that opens the modal
+const openModalBtn = document.getElementById("openModalBtn");
+
+// Get the <span> element that closes the modal
+const closeModalBtn = document.getElementById("closeModalBtn");
+
+// When the user clicks the button, open the modal
+openModalBtn.addEventListener("click", function() {
+  modal.style.display = "block";
+});
+
+// When the user clicks on <span> (x), close the modal
+closeModalBtn.addEventListener("click", function() {
+  modal.style.display = "none";
+});
+
+// When the user clicks outside the modal, close it
+window.addEventListener("click", function(event) {
+  if (event.target === modal) {
+    modal.style.display = "none";
+  }
+});
+
+// Handle form submission
+document.getElementById("loginForm").addEventListener("submit", function (event) {
+  event.preventDefault();
+  // Add your login logic here (e.g., validate email and password).
+  // You can use the email and password values using:
+  // const email = document.getElementById("email").value;
+  // const password = document.getElementById("password").value;
+
+  // After successful login, you can close the modal:
+  modal.style.display = "none";
+});
+
+document.getElementById("signupLink").addEventListener("click", function (event) {
+  event.preventDefault();
+  // Add your signup redirection logic here (e.g., navigate to the signup page).
+});
+            </script>
+</body>
+
+</html>
