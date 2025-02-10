@@ -1,0 +1,397 @@
+<p id="hr">RCC Half-Round Pipe >></p>
+        <div class="container">
+            <p id="hr-a">SEE is a trusted manufacturer of affordable RCC half-round pipes, specifically designed for the
+                protection of underground cables. We ensure the highest quality by conducting thorough tests such as
+                pressure, break, and vibration testing. With our reliable and reasonably priced pipes, clients can have
+                peace of mind knowing their underground cables are well-protected.</p>
+            <img src="/img/rcchr.jpg" alt="">
+        </div>
+
+        <br><br><br><br><br>
+        <hr><br><br>
+        <p id="hr">Solar Work >></p>
+        <div class="container">
+            <p id="hr-a">SEE is a top-tier O&M solution provider with expertise in solar project design and development.
+                We offer comprehensive services under one roof, allowing IPPs and EPCs to focus on their core areas. Our
+                specialized approach caters to rooftop solar projects, providing cost-effective, customized maintenance
+                solutions. With preventive maintenance as a priority, we ensure optimal plant performance and minimize
+                downtime for PV systems. Trust SEE for reliable and efficient O&M services.</p>
+            <img src="/img/solar.jpg" alt="">
+        </div>
+        <br>
+
+        <br><br><br>
+        <hr><br><br>
+        <p id="hr">Transformer Substation LV & HV >></p>
+        <div class="container">
+            <p id="hr-a">
+                SEE excels in supplying, erecting, testing, and commissioning HT and LT substations. Our skilled workers
+                handle all types of transformer work, including pole-mounted or plinth-mounted installations, along with
+                the necessary protective equipment. With extensive experience managing switchyards from 230V and beyond,
+                we prioritize safety and minimize downtime by adhering to best practices, equipment manuals, grid codes,
+                and our own Standard Operating Procedures. As a licensed electrical contractor in multiple states, SEE
+                ensures compliance with statutory requirements. Count on us for superior services and industry-leading
+                standards.</p>
+            <img src="/img/transformer.png" alt="">
+        </div>
+
+        <br><br><br>
+        <hr><br><br>
+        <p id="hr">Net Metering & Liasoning Work, MSEB Related Work >></p>
+        <div class="container">
+            <p id="hr-a">
+                SEE boasts exceptional skills in handling various tasks related to Maharashtra State Electricity
+                Distribution Company Limited (MSEDCL). We excel in tasks such as obtaining sanctions, liaising with
+                authorities, executing new and existing meter work, and carrying out load extension projects. As an
+                authorized vendor of MSEDCL, we have the privilege of participating in tenders and providing our
+                expertise in these areas. Count on SEE for seamless execution and outstanding service as we navigate the
+                intricacies of MSEDCL projects.</p>
+            <img src="/img/LW.jpg" alt="">
+        </div>
+        <br>
+        <hr><br>
+
+
+        css 
+
+        #fw .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#fw .container img {
+  width: 300px;
+  border-radius: 43px;
+  transition: 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#hr {
+  color: #f1eded;
+  font-size: 25px;
+  margin-left: 40px;
+}
+
+#hr-a {
+  color: #f1eded;
+  font-size: 20px;
+}
+
+
+
+ <div class="fw-container">
+        <div class="fws-container active">
+            <div class="slider">
+                <div class="content">
+                    <h6 >01. RCC Half-Round Pipe >> </h6>
+                    <p>SEE is a trusted manufacturer of affordable RCC half-round pipes, specifically designed for the
+                        protection of underground cables. We ensure the highest quality by conducting thorough tests
+                        such as
+                        pressure, break, and vibration testing. With our reliable and reasonably priced pipes, clients
+                        can have
+                        peace of mind knowing their underground cables are well-protected.</p>
+                </div>
+                <div class="image">
+                    <img src="/img/rcchr.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="fws-container">
+            <div class="slider">
+                <div class="content">
+                    <h6>02. Solar Work >> </h6>
+                    <p>>SEE is a top-tier O&M solution provider with expertise in solar project design and development.
+                        We offer comprehensive services under one roof, allowing IPPs and EPCs to focus on their core
+                        areas. Our
+                        specialized approach caters to rooftop solar projects, providing cost-effective, customized
+                        maintenance
+                        solutions. With preventive maintenance as a priority, we ensure optimal plant performance and
+                        minimize
+                        downtime for PV systems. Trust SEE for reliable and efficient O&M services.</p>
+                </div>
+                <div class="image">
+                    <img src="/img/solar.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="fws-container">
+            <div class="slider">
+                <div class="content">
+                    <h6>03. Transformer Substation LV & HV >> </h6>
+                    <p>SEE is a trusted manufacturer of affordable RCC half-round pipes, specifically designed for the
+                        protection of underground cables. We ensure the highest quality by conducting thorough tests
+                        such as
+                        pressure, break, and vibration testing. With our reliable and reasonably priced pipes, clients
+                        can have
+                        peace of mind knowing their underground cables are well-protected.</p>
+                </div>
+                <div class="image">
+                    <img src="/img/transformer.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="fws-container">
+            <div class="slider">
+                <div class="content">
+                    <h6>04. Net Metering & Liasoning Work, MSEB Related Work >> </h6>
+                    <p>SEE is a trusted manufacturer of affordable RCC half-round pipes, specifically designed for the
+                        protection of underground cables. We ensure the highest quality by conducting thorough tests
+                        such as
+                        pressure, break, and vibration testing. With our reliable and reasonably priced pipes, clients
+                        can have
+                        peace of mind knowing their underground cables are well-protected.</p>
+                </div>
+                <div class="image">
+                    <img src="/img/LW.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="prev"> < </div>
+        <div id="next"> > </div>
+    </div>
+
+
+    css
+
+    .fw-container {
+  position: relative;
+}
+
+.fw-container .fws-container .slider {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px 9%;
+  padding-bottom: 70px;
+}
+
+.fw-container .fws-container .slider .content {
+  flex: 1 1 350px;
+}
+
+.fw-container .fws-container .slider .image {
+  flex: 1 1 500px;
+}
+
+.fw-container .fws-container .slider .image img {
+  width: 300px;
+  border-radius: 43px;
+}
+
+.fw-container .fws-container .slider .content h6{
+  font-size: 30px;
+  color: rgb(143, 251, 125);
+}
+
+.fw-container .fws-container .slider .content p{
+  font-size: 19px;
+  color: #fcfbfb; 
+}
+
+.fw-container .fws-container.active{
+  display: block;
+} 
+
+.fw-container #perv,
+.fw-container #next{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  background: rgb(143, 251, 125);
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+js 
+
+ // Function to handle slider navigation
+            function navigateSlider(direction) {
+                const sliderContainer = document.querySelector('.slider-container');
+                const slideWidth = document.querySelector('.slider').offsetWidth;
+                const currentPosition = parseInt(sliderContainer.style.transform.slice(11)) || 0;
+                const numSlides = document.querySelectorAll('.slider').length;
+                const maxWidth = slideWidth * (numSlides - 1);
+
+                let newPosition;
+
+                if (direction === 'prev') {
+                    newPosition = Math.min(currentPosition + slideWidth, 0);
+                } else if (direction === 'next') {
+                    newPosition = Math.max(currentPosition - slideWidth, -maxWidth);
+                }
+
+                sliderContainer.style.transform = `translateX(${newPosition}px)`;
+            }
+
+            // Automatic sliding
+            function startSlider() {
+                setInterval(() => {
+                    navigateSlider('next');
+                }, 10000); // Adjust the duration (in milliseconds) between each slide transition
+
+
+
+                // Reset the slider to the beginning when it reaches the last slide
+                const numSlides = document.querySelectorAll('.slider').length;
+                const maxWidth = document.querySelector('.slider').offsetWidth * (numSlides - 1);
+
+                sliderContainer.addEventListener('transitionend', () => {
+                    const currentPosition = parseInt(sliderContainer.style.transform.slice(11)) || 0;
+
+                    if (currentPosition === -maxWidth) {
+                        clearInterval(slideInterval);
+                        sliderContainer.style.transform = 'translateX(0)';
+                        startSlider();
+                    }
+                });
+            }
+
+            // Event listeners for slider navigation
+            document.getElementById('prev').addEventListener('click', () => navigateSlider('prev'));
+            document.getElementById('next').addEventListener('click', () => navigateSlider('next'));
+
+            startSlider();
+
+            <section id="AU-container">
+        <h1 class="clients">Our Valuable Clients >></h1>
+        <div class="L-container">
+            
+            <div class="box">
+                <img src="/img/Screenshot 2023-07-03 172421.png" alt="">
+            </div>
+            <div class="box">
+                <img src="/img/Screenshot 2023-07-03 172437.png" alt="">
+            </div>
+            <div class="box">
+                <img src="/img/Screenshot 2023-07-03 172449.png" alt="">
+            </div>
+            <div class="box">
+                <img src="/img/Screenshot 2023-07-03 172501.png" alt="">
+            </div>
+            <div class="box">
+                <img src="/img/Screenshot 2023-07-03 172512.png" alt="">
+            </div>
+            <div class="box">
+                <img src="/img/Screenshot 2023-07-03 172528.png" alt="">
+            </div>
+            <div class="box">
+                <img src="/img/Screenshot 2023-07-03 172552.png" alt="">
+            </div>
+            <div class="box">
+                <img src="/img/Screenshot 2023-07-03 172601.png" alt="">
+            </div>
+            <div class="box">
+                <img src="/img/Screenshot 2023-07-03 172614.png" alt="">
+            </div>
+            <div class="box">
+                <img src="/img/Screenshot 2023-07-03 172626.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    /* Responsive styles */
+@media (max-width: 768px) {
+  /* Header */
+  #header .navbar ul {
+    display: none;
+  }
+
+  #header .navbar {
+    justify-content: space-between;
+  }
+
+  #header .navbar ul li {
+    padding: 10px;
+  }
+
+  #header .navbar ul li a {
+    font-size: 16px;
+  }
+
+  #header .navbar ul li a:hover::after {
+    display: none;
+  }
+
+  #nav-1 {
+    display: none;
+  }
+
+  .nav-h4,
+  .nav-h5 {
+    display: none;
+  }
+
+  /* Logo */
+  #logo img {
+    height: 50px;
+  }
+
+  /* Navbar */
+  #header .navbar {
+    padding: 10px;
+  }
+
+  /* WhatsApp button */
+  #wp img {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Home section */
+  #p1 {
+    font-size: 18px;
+  }
+
+  /* Featured work section */
+  .content h6 {
+    font-size: 24px;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  /* Logo */
+  #logo img {
+    height: 50px;
+  }
+
+  /* Navbar */
+  #header .navbar {
+    padding: 10px;
+  }
+
+  /* WhatsApp button */
+  #wp img {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Home section */
+  #p1 {
+    font-size: 18px;
+  }
+
+  /* Featured work section */
+  .content h6 {
+    font-size: 24px;
+    margin-left: 20px;
+  }
+}
